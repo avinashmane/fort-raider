@@ -1,0 +1,2601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Avinash Forts</name>
+    <description/>
+    <Style id="icon-1501-BDBDBD-labelson">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1501-BDBDBD-labelson-nodesc">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-labelson-nodesc">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-7CB342-labelson-nodesc">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-25-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-26-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-27-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-28-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-29.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-29-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-30.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-30-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-31.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-31-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-32.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-32-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-33.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-33-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-34.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-34-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-35.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-35-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-36.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-36-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-37.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-37-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-38.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-38-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-39.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-39-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-40.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-40-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-41.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-41-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-42.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-42-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-43.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-43-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-44.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-44-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-45.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-45-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-46.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-46-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-47.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-47-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-48.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-48-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-49.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-49-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-50.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-50-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-51.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-51-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-52.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-52-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-53.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-53-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-54.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-54-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-55.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Sahyadri Hill</name>
+      <Placemark>
+        <name>Visapur killa</name>
+        <styleUrl>#icon-seq2-0-0-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4879693,18.7199046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lohgad Fort</name>
+        <styleUrl>#icon-seq2-0-1-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4778492,18.707257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torna Fort</name>
+        <styleUrl>#icon-seq2-0-2-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6219158,18.2769367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Purandar Fort</name>
+        <styleUrl>#icon-seq2-0-3-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.973492,18.2825268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tikona Fort (Vitandgad)</name>
+        <styleUrl>#icon-seq2-0-4-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5127503,18.631843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sinhagad Fort</name>
+        <styleUrl>#icon-seq2-0-5-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7558777,18.366277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Purandar Fort</name>
+        <styleUrl>#icon-seq2-0-6-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.973492,18.2825268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rajgad Fort किल्ले राजगड</name>
+        <styleUrl>#icon-seq2-0-7-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6822685,18.2466528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raigad Fort</name>
+        <styleUrl>#icon-seq2-0-8-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4464444,18.2346858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rajmachi Killa</name>
+        <styleUrl>#icon-seq2-0-9-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3951504,18.8313284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vasota Fort</name>
+        <styleUrl>#icon-seq2-0-10-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6969807,17.6633398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rohida Fort</name>
+        <styleUrl>#icon-seq2-0-11-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8208089,18.1020159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vairatgad Fort</name>
+        <styleUrl>#icon-seq2-0-12-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.918945,17.877992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vandan Fort</name>
+        <styleUrl>#icon-seq2-0-13-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0462718,17.8469024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chandangad Fort</name>
+        <styleUrl>#icon-seq2-0-14-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0351532,17.8392446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murud-Janjira Fort</name>
+        <styleUrl>#icon-seq2-0-15-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            72.9644331,18.2999036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panhala Fort</name>
+        <styleUrl>#icon-seq2-0-16-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1078459,16.8113091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pavangad Fort Trek Point</name>
+        <styleUrl>#icon-seq2-0-17-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.115804,16.7969425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vishalgad Fort</name>
+        <styleUrl>#icon-seq2-0-18-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7441082,16.9060144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samangad Chinchewadi Tal Gadhingalj Dist Kolhapur</name>
+        <styleUrl>#icon-seq2-0-19-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4050186,16.1757881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhudargad Fort</name>
+        <styleUrl>#icon-seq2-0-20-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1409885,16.2526443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahadev Gad</name>
+        <styleUrl>#icon-seq2-0-21-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9768805,15.9709592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prabalgad Fort</name>
+        <styleUrl>#icon-seq2-0-22-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.2242753,18.9733557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalavantin Durg</name>
+        <styleUrl>#icon-seq2-0-23-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.2199001,18.9828126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Korigad Fort</name>
+        <styleUrl>#icon-seq2-0-24-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.385737,18.6212339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tung Fort</name>
+        <styleUrl>#icon-seq2-0-25-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.463142,18.660273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ghangad Fort</name>
+        <styleUrl>#icon-seq2-0-26-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3596237,18.5464803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sindhudurg</name>
+        <styleUrl>#icon-seq2-0-27-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5594128,16.3492193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gagan Gad, Gaganbawada</name>
+        <styleUrl>#icon-seq2-0-28-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8182885,16.5432537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jivdhan Fort</name>
+        <styleUrl>#icon-seq2-0-29-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6854472,19.276822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chawand Fort (PRASANNAGAD)</name>
+        <styleUrl>#icon-seq2-0-30-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7482213,19.2368523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hadsar Fort</name>
+        <styleUrl>#icon-seq2-0-31-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8028693,19.2708401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harishchandragad</name>
+        <styleUrl>#icon-seq2-0-32-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7780556,19.3863889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alang Fort</name>
+        <styleUrl>#icon-seq2-0-33-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6610799,19.5827432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kulang Fort</name>
+        <styleUrl>#icon-seq2-0-34-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6385341,19.5933202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Madangad Fort</name>
+        <styleUrl>#icon-seq2-0-35-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6490108,19.589714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lingana Fort</name>
+        <styleUrl>#icon-seq2-0-36-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5017235,18.2533011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raireshwar Fort</name>
+        <styleUrl>#icon-seq2-0-37-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7207806,18.0457325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sajjangad</name>
+        <styleUrl>#icon-seq2-0-38-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9157886,17.6485126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ajinkyatara Fort</name>
+        <styleUrl>#icon-seq2-0-39-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9904721,17.6723432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manikgad Fort</name>
+        <styleUrl>#icon-seq2-0-40-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.1934577,18.8262324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kenjalgad Fort</name>
+        <styleUrl>#icon-seq2-0-41-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.74572,18.024983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vasantgad</name>
+        <styleUrl>#icon-seq2-0-42-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1041752,17.3306666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Machindragad</name>
+        <styleUrl>#icon-seq2-0-43-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2686811,17.1634117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malhargad</name>
+        <styleUrl>#icon-seq2-0-44-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.04945,18.4120617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Daulat Mangal Fort</name>
+        <styleUrl>#icon-seq2-0-45-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2411108,18.4351947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pisol Fort</name>
+        <styleUrl>#icon-seq2-0-46-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.22695,20.8487093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mangi Peak</name>
+        <styleUrl>#icon-seq2-0-47-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0857759,20.8441176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nhavigad or Ratangad</name>
+        <styleUrl>#icon-seq2-0-48-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0458345,20.8323016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>मोरागड किल्ला</name>
+        <styleUrl>#icon-seq2-0-49-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0668865,20.7534374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mulher Fort</name>
+        <styleUrl>#icon-seq2-0-50-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.063923,20.751118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hargad Fort</name>
+        <styleUrl>#icon-seq2-0-51-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0455435,20.7572312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salota Fort</name>
+        <styleUrl>#icon-seq2-0-52-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.953588,20.7217988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salher Fort</name>
+        <styleUrl>#icon-seq2-0-53-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9422003,20.7235188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chaulher Fort</name>
+        <styleUrl>#icon-seq2-0-54-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0996585,20.5751902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>India nonSahyadri forts</name>
+      <Placemark>
+        <name>Chittor Fort .</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.6450926,24.8878991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            77.2410203,28.6561592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bikaner Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.318549,28.0216279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agra Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.021112,27.1795328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diu Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            70.9961398,20.7146981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golconda Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.4010528,17.383309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kumbhalgarh Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5869983,25.1528239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhadra Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            72.5811181,23.0242343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaisalmer Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            70.9122436,26.9126544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nahargarh Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8155259,26.9373127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaigarh Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8455928,26.9850877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bekal Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.0329894,12.392222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bandhavgarh Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            81.0359716,23.6829074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krishnagiri Fort</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.214565,12.5383611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort William, India</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            88.3358744,22.5542459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mehrangarh Fort and Museum</name>
+        <styleUrl>#icon-960-7CB342-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.0188468,26.2979506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sahyadri nonHill</name>
+      <Placemark>
+        <name>Induri Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7141342,18.7360221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Daulatabad Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.2211447,19.9433957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kittur Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.7914123,15.6012363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belgaum Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.5243564,15.8593795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sangli Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.5658787,16.858339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aguada Fort</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7731561,15.4925631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Intl Forts</name>
+      <Placemark>
+        <name>Fort Obergrünewald</name>
+        <description>Luxemburg</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            6.1376767,49.6153903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Al Mirani Fort</name>
+        <description>Muscat</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            58.5934916,23.6172596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mutrah Fort</name>
+        <description>Muscat</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            58.567089,23.6205066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hatta Watchtower</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            56.1175352,24.7976731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uchisar Castle</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8072329,38.631365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tower of London</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.0759493,51.5081124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Citadel Cairo</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            31.2599698,30.0292619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muiderslot</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0714226,52.3343272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>remaining forts</name>
+      <Placemark>
+        <name>Madhumakarandgad Fort - Ghonaspur</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.60259,17.85003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolkewadi Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6847234,17.4887223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barwai Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6241591,17.5195208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gowalkot Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4880085,17.5465188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3510667,17.8152847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kondhavi Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4543645,17.9209228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamalgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7452286,17.9673966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manohargad Fort मनोहरगड किल्ला</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.970218,16.0509046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mansantosh Gad</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9662333,16.0492894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Narayangad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0232178,16.0178007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.910651,19.741177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Achala Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.814317,20.4318035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Markandey Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9257239,20.3849583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ahiwant fort अहिवंत किल्ला</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8610136,20.4142397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohandari Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8886678,20.4413896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kanhera fort / कण्हेरगड</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9688551,20.4173046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jawlya Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9584541,20.3740315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dhodap Fort - धोडप किल्ला</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0300072,20.3848552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rawlya Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9710712,20.3724223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Koldher Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1695025,20.3764258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indrai Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2076606,20.3596812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rajdher Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1951867,20.3867647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kanchna Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1100482,20.3730843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ankai Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4431076,20.1878947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Tankai</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4549908,20.1915456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chandwad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2597483,20.3362382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laling Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.7391934,20.81168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galna Fort गाळणा किल्ला</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.5355087,20.7742807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kankarala Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4873218,20.7065226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bahadarpur Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.0423519,20.9122797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malegaon Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.5303485,20.5455234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antur Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.2354157,20.428541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kavnai Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6194116,19.7733874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Balvantgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4906937,19.6882111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gadgada Fort (Ghargad)</name>
+        <description>Technical</description>
+        <styleUrl>#icon-1501-BDBDBD-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            73.6414962,19.885016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bahula Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7042176,19.8685589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hatgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7605887,20.5424957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roopgadh Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5950454,20.9606309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhupatgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.2925,19.816111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chanderi fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.2462573,19.0632131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaladgad-Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7589218,19.4222445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prachitgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6911449,17.2265984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhavanigad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5698984,17.2479668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junglee Jaigad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6925936,17.4536741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ratnadurg Fort रत्नदुर्ग किल्ला</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.2706014,16.9961031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mudagad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8650107,16.6635957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dategad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8641485,17.379482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahipatgad</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4979129,17.8382265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhairavnath Temple ( Bhairavgad)</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6783838,17.3260572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sankshi Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.1317872,18.7866416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anghai Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3364439,18.6113326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avchitgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.1182033,18.4750249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ballalgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            72.8869224,20.2055005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhairavgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7141619,19.318739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhupalgad fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.8674766,17.2257812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ghosalgad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.0907482,18.3647082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaigad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.221612,17.300493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nandgiri Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.1267487,17.7790961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Varugad Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4423723,17.8526365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Honnur Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.6131082,16.1593496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Katra Fort</name>
+        <styleUrl>#icon-1501-BDBDBD-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.3909705,20.1982567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Planned forts</name>
+      <Placemark>
+        <name>Rasalgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5115564,17.7647297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pratapgad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5805635,17.933757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chandragad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6195232,18.0015059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aundha Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8370513,19.7469885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bitangad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.786111,19.653177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patta fort - Vishramgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8467982,19.7019986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhilai Fort / भिलाई किल्ला</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.024556,20.6592504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darya Ghat</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6830521,19.2464754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siddhagad Fort (Bale Killa)</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5240349,19.1586874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Padargad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5246227,19.0529363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kothaligad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5129775,18.9920869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gorakhgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5404042,19.1922398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Machchhindragad fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5427165,19.1953246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khairai Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3889669,20.1465284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harihar Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4719379,19.9047251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morgiri Fort, मोरगिरी किल्ला</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4203863,18.6649896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Konkan Diva Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.4214351,18.2947883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sudha Gad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.321445,18.5372538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Bahadurwadi</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.3137047,16.9086719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chakan Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.8625257,18.7568416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhairavgad Fort Shirpunje</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7808531,19.4686931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>आजोबा गड</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6891611,19.467772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ratangad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.704502,19.4981732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhivgad / Bhimgad Fort - भिवगड किंवा भीमगड</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3837822,18.9155113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhorgiri Fort, Maharashtra</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.5668698,19.0472317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhushangad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4067526,17.4648883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nimgiri Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.77285,19.2948612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanumantgad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.7713502,19.2945388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gunvantgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.855446,17.3332765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Kailasgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.477847,18.515319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gandharvgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2406756,15.9547453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalanandigad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2524129,15.8601423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kurdugad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.419013,18.3738645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahimangad Fort.</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4633391,17.7019752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahipal Gad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.3844049,15.9026366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Songiri Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.33278,18.8625901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Subhanmangal Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9771914,18.1545685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mruggad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.3645447,18.6887778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vardhangad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.2640721,17.7253593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vallabhgad</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.4598899,16.2803017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rajhansagad Yellur Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.526478,15.7570361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sada Fortress</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.100298,15.6724812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pargad Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            74.0450289,15.8169103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alorna Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.9053878,15.7001787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colvale Fort</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.850622,15.6349385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rayakottai Fort Hill Top</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.0369887,12.5202789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>कावळ्या किल्ला</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6065904,18.1387176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohangad Fort (Durgadicha Killa)</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            73.6206587,18.0776679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
