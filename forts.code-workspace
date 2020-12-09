@@ -17,5 +17,10 @@
 				"program": "${file}"
 			}
 		]
+	},
+	"settings": {
+		"git.scanRepositories": [
+			"avinashmane/fort-raider"
+		]
 	}
 }

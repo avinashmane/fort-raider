@@ -2,11 +2,11 @@
 <html>
 <head>
 
-	<title>Indiathon</title>
+	<title>Fort Raider</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" /> -->
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="/__/firebase/8.1.2/firebase-app.js"></script>
 
@@ -17,22 +17,37 @@
 	<!-- Initialize Firebase -->
 	<script src="/__/firebase/init.js"></script>
 
+	<link href="css/fort-raider.css" rel="stylesheet">
+
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 	<script src="js/leaflet-providers.js"></script>
 	<link rel="stylesheet" href="/css/MarkerCluster.css" />
 	<link rel="stylesheet" href="/css/MarkerCluster.Default.css" />
 	<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+	<script src="js/Polyline.encoded.js"></script>
+	<script src="js/leaflet.motion.min.js"></script>
 	<!-- <script src="js/leaflet.markercluster.js"></script> -->
 	<!-- <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>	 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<div>
+		<span>
+			<span class="pageheading"><i class="fa fa-fort-awesome" aria-hidden="true"></i>Fort Raider</span>
+			Your guide for hiking!
+			<a href="https://www.facebook.com/fortraider.1">Comments at fb.me/fortraider.1</a>
+		</span>
+	</div>
 
-<div id="mapid" style="width: 95vw; height: 100vh;"></div>
-<script src="forts_db.js"></script>
-<script src="forts.js"></script>
+	<div id="mapid" style="width: 95vw; height: 100vh;"></div>
+	
 
-<!-- <script src="kml-parse.js"></script> -->
+	<!-- <script src="kml-parse.js"></script> -->
 
 </body>
+<script src="forts_db.js"></script>
+<script src="forts.js"></script>
 </html>
