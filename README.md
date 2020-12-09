@@ -2,7 +2,7 @@
 
 Website that support guide of forts and GPS trail maps
 
-App fort-raider.web.app support GPS mapping of all forts.  List is in progress and increasing gradually.
+App https://fort-raider.web.app supports GPS mapping of all forts.  List is in progress and increasing gradually.
 
 # Notes
 
