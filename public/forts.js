@@ -1,21 +1,17 @@
 
-	const fortCategories = [...new Set(forts.map(item => item.category))];
-
-	// var iconUrl = 'data:image/svg+xml;base64,' + btoa(svg);
-
-
 	var fortIcons={}
-	for (fCat of fortCategories){
-		iconUrl={"Sahyadri Hill":"/images/fort_icon-red.svg", 
-				  "India nonSahyadri forts":"/images/fort_icon-blue.svg", 
-				  "Sahyadri nonHill":"/images/fort_icon-brown.svg", 
-				  "Intl Forts":"/images/fort_icon-red.svg", 
-				  "remaining forts":"/images/fort_icon-green.svg", 
-				  "Planned forts":"/images/fort_icon-blue.svg" }[fCat]
+
+	const fortTypes = [...new Set(forts.map(item => item.type))];
+	for (fCat of fortTypes){
+		iconUrl={"Hill":"/images/fort_icon-red.svg", 
+				  "Water":"/images/fort_icon-blue.svg", 
+				  "Land":"/images/fort_icon-brown.svg",
+				  "Misc":"/images/fort_icon-green.svg",
+				  "":"/images/fort_icon-green.svg"}[fCat]
 		// debugger;
 		fortIcons[fCat] = L.icon({
 			iconUrl: iconUrl,
-			size: "s"
+			size: "m"
 		})
 	}
 
@@ -25,28 +21,25 @@
         mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
         
 
-    var littleton = L.marker([20, 73.79]).bindPopup('This is Nashik.'),
-        denver    = L.marker([19.21, 72.97]).bindPopup('This is Thane.'),
-        aurora    = L.marker([17.69, 74]).bindPopup('This is Satara'),
-        golden    = L.marker([16.7, 74.23]).bindPopup('This is Kolhapur.');    
-	var cities = L.layerGroup([littleton, denver, aurora, golden]);
 
 	fms=forts.map((x) => { 
-		return L.marker([x.coord[1], x.coord[0]],
+		return L.marker([x.lat, x.lng],
 			//  {icon:  L.divIcon({
 			//     className: 'text-labels',   // Set class for CSS styling
 			//     html: '<i class="fa fa-fort-awesome" aria-hidden="true"></i><div class="fort">'+x.fort.replace(" Fort","")+'</div>'}) 
-			// , title:x.fort})
-			{icon: fortIcons[x.category]})
-			.bindPopup(x.fort+':'+x.category)}),
-	fortLayer= L.layerGroup( fms )
+			{icon: fortIcons[x.type],
+			 title:x.fort})
+			.bindPopup(`<div><div class=fortname>${x.fort}</div><div>Fort Type: ${x.type}</div><div><a href="${x.link}" target="_blank">${x.link ? "Info" : ""}</a> : <a href="${x.wiki}" target="_blank">${x.wiki?"Wiki":""}</a></div></div>`)
+		})
+
+	var fortLayer;
+	// searchLayer= L.layerGroup( fms )
 	// Cluster
 	var markers = L.markerClusterGroup();
 	for (i in fms) {
-		markers.addLayer(fms[i]);
+		fortLayer =markers.addLayer(fms[i]);
 	}
 	
-
 	var  streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
 
 	var baseLayers = {
@@ -57,7 +50,6 @@
 			"HikeBike": L.tileLayer.provider('HikeBike.HikeBike'),
 			"HERE.hybridDay": L.tileLayer.provider('HEREv3.hybridDay'),
 			"HERE.normalNight": L.tileLayer.provider('HEREv3.normalNight'),
-			
 		};
 	
     var map = L.map('mapid', {
@@ -73,12 +65,20 @@
     // var runLayer =a.on('ready', function() {
     //     map.fitBounds(runLayer.getBounds());
     // })
-    // .addTo(map);
-    
+	// .addTo(map);
+	
+	// var searchLayer = L.layerGroup().addTo(map);
+	var controlSearch = new L.Control.Search({
+		position:'topright',		
+		layer: fortLayer,
+		initial: false,
+		zoom: 12,
+		marker: false
+	});
 
+	map.addControl( controlSearch );
 
 	var overlays = {
-		"Cities": cities,
         "forts": fortLayer,
 		"WaymarkedTrails.hiking": L.tileLayer.provider('WaymarkedTrails.hiking'),
 	};
@@ -95,7 +95,7 @@
 	// }).addTo(mymap);
 
 	L.marker([18.5204, 73.85]).addTo(map)
-		.bindPopup("<b>Hello fort raiders!</b><br />Let's start in Pune.").openPopup();
+		.bindPopup(`<b>Hello fort raiders!</b><br />Let's start exploring ${forts.length} forts.<br/>More trails and forts being added.`).openPopup();
 
 	// L.circle([51.508, -0.11], 500, {
 	// 	color: 'red',
@@ -108,6 +108,12 @@
 	// 	[51.503, -0.06],
 	// 	[51.51, -0.047]
 	// ]).addTo(mymap).bindPopup("I am a polygon.");
+
+
+	// //... adding data in searchLayer ...
+	// map.addControl( new L.Control.Search({layer: searchLayer}) );
+	// //searchLayer is a L.LayerGroup contains searched markers
+
 /*
 	var pointA = new L.LatLng(18.806817, 74.349976);
 	var pointB = new L.LatLng(18.984461, 73.70641);
